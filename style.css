@@ -141,6 +141,20 @@ input::placeholder{
     flex-grow: 1;
 }
 
+.attribution{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color: #fff;
+    z-index: 1000;
+    padding: 10px;
+    font-weight: 700;
+}
+
+.attribution a{
+    color: blue;
+}
+
 @media (max-width:600px) {
     h1{
         font-size: 24px;
